@@ -118,6 +118,12 @@ error can be triggered also without need to restart the verifier.
 	outside the issue scope as it affects not only the realized external entity, 
 	and the tool will be more restricted. Issues [2] and [3] are submitted
 	to address this.
+	
+6.2  The realized class definition will not be cleared when all projects running 
+	in verifier are terminated. This will avoid all linking errors when the realized
+	class owner project is terminated before the other projects that use the 
+	realized class in verifier, or when user does not include the realized class 
+	owner project in verifier session.
 
 7. Design Comments
 ------------------

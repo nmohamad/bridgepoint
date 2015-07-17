@@ -87,7 +87,7 @@ public class Vm_c {
     
     public static void printWarningMessageForUnloadedClassesIfNeeded(SystemModel_c key){
     	if (vmclMap.containsKey(key)){
-    		CorePlugin.out.println("\nWARNING:  The terminated project" + key.Get_name() + " contains" +
+    		CorePlugin.out.println("\nWARNING:  The terminated project " + key.getName() + " contains" +
     				" a realized class/classes that will not be unloaded because there are " +
     				"one or more projects running in verifier\n");
     	}
