@@ -1592,7 +1592,7 @@ public class BPDebugTarget extends BPDebugElement implements IDebugTarget {
 						TIM.terminate(thr.getEngine());
 					}
 					prev_modelRoot = modelRoot;
-					/* This code is commented with 7744 works. By resolving issue ####
+					/* This code is commented with 7744 works. By resolving issue 7800
 					 this code should be un-commented */ 
 					//thr.resetClassLoader();
 					Vm_c.removeStack(thr.getRunner());

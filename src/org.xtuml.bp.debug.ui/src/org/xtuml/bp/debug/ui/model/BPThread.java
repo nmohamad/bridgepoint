@@ -671,13 +671,13 @@ public class BPThread extends BPDebugElement implements IThread {
 	{
 		
 		// This code is added as temporary fix for the bug described in 7744
-		// By resolving # , this code no longer needed.
+		// By resolving 7800 , this code no longer needed.
 		ArrayList<BPDebugTarget> targets = BPDebugTarget.getTargets();
 		if ( targets.size() <= 1){
 			Vm_c.resetAllClassLoader();
 		}
 
-		// This code is commented with 7744 works. By resolving issue ####
+		// This code is commented with 7744 works. By resolving issue 7800
 		// this code should be un-commented 
 	/*	ComponentInstance_c ci = this.getEngine();  		
 		Component_c comp = Component_c.getOneC_COnR2955(ci);

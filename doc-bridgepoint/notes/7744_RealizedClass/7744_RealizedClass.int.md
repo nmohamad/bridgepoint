@@ -29,7 +29,7 @@ See [2]
 5. Work Required
 ----------------
 5.1 In BPDebugTarget.terminate() and BPThread.resetClassLoader(), check for the
-	Active executing targets, if there is no executing target, clear VM_c.vmclMap
+	active executing targets. If there is no executing target, clear VM_c.vmclMap
 	and BPClassLoader.definitions.
 	
 5.2 If the terminated project contains a defined realized class, print a 
@@ -47,7 +47,8 @@ None.
 
 8. Code Changes
 ---------------
-Branch name: <7744_realized_relaunch_failure>  bridgepoint repo
+Branch name: [7744_realized_relaunch_failure] (https://github.com/nmohamad/bridgepoint/tree/7744_realized_relaunch_failure)  bridgepoint repo
+
 
 <pre>
 
@@ -75,7 +76,7 @@ org.xtuml.bp.debug.ui.test [bridgepoint 7744_realized_relaunch_failure]/src/
 
 </pre>
 
-Branch name: <7744_realized_relaunch_failure>  models repo
+Branch name: [7744_realized_relaunch_failure] (https://github.com/nmohamad/models/tree/7744_realized_relaunch_failure)  models repo
 
 <pre>
 
