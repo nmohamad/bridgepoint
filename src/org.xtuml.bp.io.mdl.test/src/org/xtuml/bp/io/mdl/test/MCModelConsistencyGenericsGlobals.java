@@ -36,11 +36,6 @@ public class MCModelConsistencyGenericsGlobals extends BaseTest
 	private String test_id;
 	
 	
-//	class data{
-//		File testModel;
-//		int 
-//	}
-	
     @Parameters
     public static Collection<Object[]> data() {
     	File[] testModels = ModelRecreationTests.getTestModelNames();
